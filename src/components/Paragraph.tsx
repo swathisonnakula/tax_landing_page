@@ -61,9 +61,9 @@ const Paragraph: React.FC = () => {
           <div>
             <Row className="align-items-center">
               <Col md={6} data-aos="fade-right" data-aos-delay="300">
-                <h1 className="text-9xl md:text-4xl fw-semibold text-blue-800 mb-10 title-font text-theme-primary-soft">
+                <h1 className="text-9xl md:text-4xl fw-semibold text-blue-800 mb-10 title-font text-theme-primary">
                   Your{" "}
-                  <span className=" text-theme-primary ">Trusted Partner</span>{" "}
+                  <span className=" text-orange ">Trusted Partner</span>{" "}
                   in Financial Success
                 </h1>
               </Col>

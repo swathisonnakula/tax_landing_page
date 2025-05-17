@@ -3,6 +3,8 @@ import Hero from "./hero";
 import Navbar from "./Navbar";
 import Services from "./services";
 import Paragraph from "./Paragraph";
+import Contact from "./Contact";
+import Banner from "./Banner";
 // import HeroBanner from "./HeroBanner";
 // import Intro from "./Intro";
 // import WhyChooseUs from "./WhyChooseUs";
@@ -36,6 +38,8 @@ export default function MainContent() {
       <Hero />
       <Paragraph/>
       <Services/>
+      <Banner/>
+      <Contact/>
     </>
   );
 }

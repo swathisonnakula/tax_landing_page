@@ -42,11 +42,6 @@ const Navbar: React.FC = () => {
                   Services
                 </a>
               </li>
-              <li className="nav-item px-3">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
                <li className="nav-item px-3">
                 <a className="nav-link" href="#">
                   Contact

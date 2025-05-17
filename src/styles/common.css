@@ -22,8 +22,12 @@
   background-color: #dfecff !important;
 }
 
-.bg-lavender {
-  background-color: lavender !important;
+.bg-orange {
+  background-color: #ff776b !important;
+}
+
+.text-orange {
+  color: #ff776b !important;
 }
 
 .text-secondary-teal {

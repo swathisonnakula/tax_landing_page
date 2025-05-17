@@ -73,7 +73,7 @@ const Services: React.FC = () => {
                     <h5 className="text-white">
                       Our Expertise, Your Advantage
                     </h5>
-                    <h3 className="text-theme-primary-extra-soft fw-bold mb-4">
+                    <h3 className="text-orange fw-bold mb-4">
                       Comprehensive Accounting & Tax Solutions
                     </h3>
                     <p className="text-gray-100 mb-0">
@@ -104,7 +104,7 @@ const Services: React.FC = () => {
                     >
                       <CardBody className="p-3">
                         {/* <Image src={ele.icon} alt="" width={250}/> */}
-                        <h5 className="fw-semibold mt-3">{ele.title}</h5>
+                        <h5 className="fw-semibold text-orange  mt-3">{ele.title}</h5>
                         <p className="text-gray-600">{ele.description}</p>
                         <div className="position-absolute end-0 bottom-0 p-0 bg-theme-primary-extra-soft p-2 rounded-5">
                           {" "}
