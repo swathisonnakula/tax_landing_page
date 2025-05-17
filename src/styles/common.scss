@@ -1,0 +1,91 @@
+@import "../styles/variable.scss";
+
+.text-theme-primary {
+  color: $primary-color;
+}
+.text-theme-primary-soft {
+  color: $primary-color-soft !important;
+}
+.text-theme-primary-extra-soft {
+  color: $primary-color-extra-soft !important;
+}
+.bg-theme-primary {
+  background-color: $primary-color !important;
+}
+
+.bg-theme-primary-soft {
+  background-color: $primary-color-soft !important;
+}
+.bg-theme-primary-extra-soft {
+  background-color: $primary-color-extra-soft !important;
+}
+
+.bg-lavender {
+  background-color: lavender !important;
+}
+
+.text-secondary-teal {
+  color: $teal;
+}
+
+.text-secondary-light {
+  color: $light-teal;
+}
+
+.border-teal {
+  border-color: $light-teal;
+}
+
+.text-primary-dark {
+  color: $dark-blue;
+}
+
+.text-blue-100 {
+  color: $blue-100;
+}
+
+.text-gray-600 {
+  color: $gray-600;
+}
+
+.bg-light-blue {
+  background-color: $light-blue;
+}
+
+.btn-theme-primary {
+  background-color: $primary-color !important;
+  color: white !important;
+}
+
+//navbar
+.navbar {
+    background-color: white;
+    padding: 1rem;
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+//   .navbar-box {
+//     background: transparent;
+//     position: fixed;
+//     width: 89%;
+//   }
+  .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .navbar-nav {
+    .nav-tem {
+      background-color: #43c1c3 !important;
+    }
+    .nav-link {
+      color: $primary-color !important;
+      font-weight: 400;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #43c1c3;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,18 @@
+@use "boxicons" as *;
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "tailwindcss";
+@import "../styles/variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.title-font {
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+}

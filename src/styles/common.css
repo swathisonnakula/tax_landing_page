@@ -1,0 +1,80 @@
+.text-theme-primary {
+  color: #1e3a8a;
+}
+
+.text-theme-primary-soft {
+  color: #8f9dc5 !important;
+}
+
+.text-theme-primary-extra-soft {
+  color: #dfecff !important;
+}
+
+.bg-theme-primary {
+  background-color: #1e3a8a !important;
+}
+
+.bg-theme-primary-soft {
+  background-color: #8f9dc5 !important;
+}
+
+.bg-theme-primary-extra-soft {
+  background-color: #dfecff !important;
+}
+
+.bg-lavender {
+  background-color: lavender !important;
+}
+
+.text-secondary-teal {
+  color: #43c1c3;
+}
+
+.text-secondary-light {
+  color: #a7d6e0;
+}
+
+.border-teal {
+  border-color: #a7d6e0;
+}
+
+.text-primary-dark {
+  color: #0c1037;
+}
+
+.text-blue-100 {
+  color: #dbeafe;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.bg-light-blue {
+  background-color: #f6faff;
+}
+
+.btn-theme-primary {
+  background-color: #1e3a8a !important;
+  color: white !important;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem;
+}
+.navbar .navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-tem {
+  background-color: #43c1c3 !important;
+}
+.navbar .navbar-nav .nav-link {
+  color: #1e3a8a !important;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #43c1c3;
+}/*# sourceMappingURL=common.css.map */
