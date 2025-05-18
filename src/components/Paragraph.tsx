@@ -3,17 +3,21 @@ import { Button, Col, Row } from "reactstrap";
 import Image from "next/image";
 import analytics from "../../public/images/analytics_vector.png";
 import personalization from "../../public/images/personalization.png";
+import Accuracy from "../../public/images/Accuracy.png";
+import Partnership from "../../public/images/Partnership.png";
+import Compliance from "../../public/images/Compliance.png";
+
 const Paragraph: React.FC = () => {
   const data = [
     {
       title: "End‑to‑End Accuracy",
-      icon: personalization,
+      icon: Accuracy,
       description:
         "Dual‑layer review by certified accountants ensures every figure is correct—no last‑minute surprises.",
     },
     {
       title: "Regulation‑Ready Compliance",
-      icon: personalization,
+      icon: Compliance,
       description:
         "We track ever‑changing tax laws and statutory deadlines so you remain 100 % compliant, year‑round.",
     },
@@ -23,27 +27,28 @@ const Paragraph: React.FC = () => {
       description:
         "From choosing the right business structure to optimizing deductions, advice is tailored to your exact goals and risk profile.",
     },
-    {
-      title: "Real‑Time Visibility",
-      icon: personalization,
-      description:
-        "Secure dashboards give you 24 / 7 access to ledgers, GST status, and key financial KPIs—any device, any time.",
-    },
     // {
-    //   title: "Proactive Savings",
+    //   title: "Real‑Time Visibility",
+    //   icon: personalization,
     //   description:
-    //     "Quarterly check‑ins identify new allowances, credits, and restructuring opportunities before they expire.",
+    //     "Secure dashboards give you 24 / 7 access to ledgers, GST status, and key financial KPIs—any device, any time.",
     // },
     {
-      title: "Long‑Term Partnership",
+      title: "Proactive Savings",
       icon: personalization,
+      description:
+        "Quarterly check‑ins identify new allowances, credits, and restructuring opportunities before they expire.",
+    },
+    {
+      title: "Long‑Term Partnership",
+      icon: Partnership,
       description:
         "Beyond annual returns, we support funding rounds, audits, and growth‑phase forecasting—so your finances scale with your ambitions.",
     },
   ];
 
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid section-two">
       <section className="bg-white p-20  ">
         <div data-aos="fade-up" data-aos-delay="200">
           {/* <p className="text-gray-700 text-lg leading-relaxed">
@@ -62,9 +67,8 @@ const Paragraph: React.FC = () => {
             <Row className="align-items-center">
               <Col md={6} data-aos="fade-right" data-aos-delay="300">
                 <h1 className="text-9xl md:text-4xl fw-semibold text-blue-800 mb-10 title-font text-theme-primary">
-                  Your{" "}
-                  <span className=" text-orange ">Trusted Partner</span>{" "}
-                  in Financial Success
+                  Your <span className=" text-orange fw-bold ">Trusted Partner</span> In
+                  Smarter Accounting & Long-Term Financial Success
                 </h1>
               </Col>
               {data?.map((ele, ind) => {
@@ -75,7 +79,7 @@ const Paragraph: React.FC = () => {
                     data-aos="zoom-in-up"
                     data-aos-delay={400 + ind * 100}
                   >
-                    <div className="shadow-sm border border-1 rounded-4 p-5 mb-4">
+                    <div className="box-shadow rounded-4 p-5 mb-4">
                       <div className="d-flex align-items-center">
                         <Image src={ele?.icon} alt="" className="me-4" />
                         <div>

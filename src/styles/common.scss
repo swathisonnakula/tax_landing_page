@@ -9,6 +9,9 @@
 .text-theme-primary-extra-soft {
   color: $primary-color-extra-soft !important;
 }
+.text-theme-primary-extra-light {
+  color: $primary-color-extra-light !important;
+}
 .bg-theme-primary {
   background-color: $primary-color !important;
 }
@@ -19,12 +22,15 @@
 .bg-theme-primary-extra-soft {
   background-color: $primary-color-extra-soft !important;
 }
+.bg-theme-primary-extra-light {
+  background-color: $primary-color-extra-light !important;
+}
 
 .bg-orange {
   background-color: $orange-color !important;
 }
 .text-orange {
- color: $orange-color !important;
+  color: $orange-color !important;
 }
 
 .text-secondary-teal {
@@ -62,14 +68,14 @@
 
 //navbar
 .navbar {
-    background-color: white;
-    padding: 1rem;
-    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-//   .navbar-box {
-//     background: transparent;
-//     position: fixed;
-//     width: 89%;
-//   }
+  background-color: white;
+  padding: 1rem;
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  //   .navbar-box {
+  //     background: transparent;
+  //     position: fixed;
+  //     width: 89%;
+  //   }
   .navbar-brand {
     font-size: 1.25rem;
     font-weight: 500;
@@ -90,5 +96,8 @@
   }
 }
 
-
-
+.section-two {
+  .box-shadow {
+    box-shadow: 0px 0px 5px -1px #ff776b;
+  }
+}

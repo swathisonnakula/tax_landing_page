@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
         <div className="navbar-box d-flex justify-content-between align-items-center ">
           <a className="navbar-brand d-flex align-items-center" href="#">
             <Image src={analytics} alt="Logo" width={40} height={40} />
-            <h6>HN & Co Consulting</h6>
+            <h6>HN & Co</h6>
           </a>
           <button
             className="navbar-toggler"

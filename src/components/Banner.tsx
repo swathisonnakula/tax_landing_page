@@ -5,8 +5,8 @@ import personalization from "../../public/images/analytics_vector.png";
 
 const Banner: React.FC = () => {
   return (
-    <div className=" mb-10 ">
-      <section className=" p-10 bg-theme-primary   ">
+    <div className="container mb-10 ">
+      <section className=" p-10 bg-theme-primary rounded-5  ">
         <Row className="align-items-center justify-content-between">
           <Col md={9}>
             <p className="text-orange text-5xl fw-bold">
@@ -17,7 +17,9 @@ const Banner: React.FC = () => {
               out a clear, cost‑effective strategy so you can focus on scaling
               your business.
             </p>
-            <Button className="bg-light text-dark rounded-5 px-4 p-2 mt-3">Get Started</Button>
+            <Button className="bg-light text-dark rounded-5 px-4 p-2 mt-3">
+              Get Started
+            </Button>
           </Col>
           <Col className="text-end">
             <Image src={personalization} alt="" width={200} />
